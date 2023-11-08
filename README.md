@@ -1,5 +1,15 @@
 # MEET APP
 
+## Objective
+  Create a serverless, progressive web application (PWA) using React and test-driven development (TDD) approach. It will also be integrated with Google calendar API to fetch and display upcoming events in selected cities.
+
+## The Five W's
+  1. Who: Targeted at Meet app users – including peers, professionals, potential recruiters.
+  2. What: A PWA employing serverless architecture and created through TDD.
+  3. When: Users of this app will be able to use it whenever they wish, including while offline.
+  4. Where: Cloud hosting enables both online and offline functionality.
+  5. Why: Using contemporary cloud solutions while at the same time providing the experience that a PWA can provide to users. Also ensuring the app is thoroughly tested through the TDD approach. 
+
 ## Meet App user stories, scenarios, and features
 
 ### List of features: 
@@ -36,7 +46,7 @@ As a user I should be able to specify the number of events that shows up per sel
   - Scenario 2: The user can specify the number of events to be displayed.
     - Given a user has specified a number of results per city to be displayed, when the user searches a speficic city then that selected number of events will be displayed. 
 
-Feature: Be able to Use App When Offline
+FEATURE: Be able to Use App When Offline
 
 As a user I should be able to use the app and get information when offline of data that was fetched while previously connected to internet. 
   - Scenario 1: Be able to display cached data when there is no internet connection.
@@ -44,13 +54,13 @@ As a user I should be able to use the app and get information when offline of da
   - Scenario 2: Show error message when the search criteria change.
     - Given the user has no internet connection, when the user searches events for a different city or time then the app will show an error message. 
 
-Feature: Add Home Screen Shortcut
+FEATURE: Add Home Screen Shortcut
 
 As a user I should be able to create a home screen shortcut to the app for quick access.
   - Scenario 1: User can install the app and place a shortcut on their home screen.
     - Given the user installs the app, when the user selects to install app as a shortcut then the shortcut will appear on their home screen.
     
-Feature: Display Charts Visualizing Event Statistics
+FEATURE: Display Charts Visualizing Event Statistics
 
 As a user I should be able to see charts visualizing the events around the city.
   - Scenario 1: Given user is in the event details page, when a user clicks the button to see a chart visualizing all the events around the city, a map will appear showing where the events are taking place.
