@@ -30,27 +30,27 @@ As a user I should be able to select the 'see more details' button so that I can
 
 FEATURE: Specify Number of Events
 
-  As a user I should be able to specify the number of events that shows up per selected city. 
-    - Scenario 1: By default the app will be set to show all events in that city. 
-      - Given a user has searched for a specific city, when the user clicks on that city then all the events in that city will be displayed. 
-    - Scenario 2: The user can specify the number of events to be displayed.
-      - Given a user has specified a number of results per city to be displayed, when the user searches a speficic city then that selected number of events will be displayed. 
+As a user I should be able to specify the number of events that shows up per selected city. 
+  - Scenario 1: By default the app will be set to show all events in that city. 
+    - Given a user has searched for a specific city, when the user clicks on that city then all the events in that city will be displayed. 
+  - Scenario 2: The user can specify the number of events to be displayed.
+    - Given a user has specified a number of results per city to be displayed, when the user searches a speficic city then that selected number of events will be displayed. 
 
 Feature: Be able to Use App When Offline
 
-  As a user I should be able to use the app and get information when offline of data that was fetched while previously connected to internet. 
-    Scenario 1: Be able to display cached data when there is no internet connection.
-      - Given the user is not connected to the internet, when the user is using the app then cached data stored in the app will be able to be displayed. 
-    Scenario 2: Show error message when the search criteria change.
-      - Given the user has no internet connection, when the user searches events for a different city or time then the app will show an error message. 
+As a user I should be able to use the app and get information when offline of data that was fetched while previously connected to internet. 
+  - Scenario 1: Be able to display cached data when there is no internet connection.
+    - Given the user is not connected to the internet, when the user is using the app then cached data stored in the app will be able to be displayed. 
+  - Scenario 2: Show error message when the search criteria change.
+    - Given the user has no internet connection, when the user searches events for a different city or time then the app will show an error message. 
 
 Feature: Add Home Screen Shortcut
 
-  As a user I should be able to create a home screen shortcut to the app for quick access.
-    Scenario 1: User can install the app and place a shortcut on their home screen.
-      - Given the user installs the app, when the user selects to install app as a shortcut then the shortcut will appear on their home screen.
+As a user I should be able to create a home screen shortcut to the app for quick access.
+  - Scenario 1: User can install the app and place a shortcut on their home screen.
+    - Given the user installs the app, when the user selects to install app as a shortcut then the shortcut will appear on their home screen.
     
 Feature: Display Charts Visualizing Event Statistics
 
-  As a user I should be able to see charts visualizing the events around the city.
-    Scenario 1: Given user is in the event details page, when a user clicks the button to see a chart visualizing all the events around the city, a map will appear showing where the events are taking place.
+As a user I should be able to see charts visualizing the events around the city.
+  - Scenario 1: Given user is in the event details page, when a user clicks the button to see a chart visualizing all the events around the city, a map will appear showing where the events are taking place.
