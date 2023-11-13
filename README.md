@@ -64,3 +64,9 @@ FEATURE: Display Charts Visualizing Event Statistics
 
 As a user I should be able to see charts visualizing the events around the city.
   - Scenario 1: Given user is in the event details page, when a user clicks the button to see a chart visualizing all the events around the city, a map will appear showing where the events are taking place.
+
+
+### SERVERLESS FUNCTIONS
+
+In Meet App serverless functions will be used to process on demand requests and will also give the app responsivess in regards to scalability. The types of requests will vary from filtering events by city, to specifying the number of events to view. The serverless technology will also be used to generate the charts that will be displayed by the View Charts feature. 
+By using serverless functions Meet App will be more flexible and cost-effective. It will also allow Meet App to focus on providing optimal user experience without having to allocate resources managing server infrastructure. 
