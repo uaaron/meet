@@ -68,5 +68,5 @@ As a user I should be able to see charts visualizing the events around the city.
 
 ### SERVERLESS FUNCTIONS
 
-In Meet App serverless functions will be used to process on demand requests and will also give the app responsivess in regards to scalability. The types of requests will vary from filtering events by city, to specifying the number of events to view. The serverless technology will also be used to generate the charts that will be displayed by the View Charts feature. 
+In Meet App serverless functions will be used to process on demand requests and will also give the app responsiveness in regards to scalability. The types of requests will vary from filtering events by city, to specifying the number of events to view. The serverless technology will also be used to generate the charts that will be displayed by the View Charts feature. 
 By using serverless functions Meet App will be more flexible and cost-effective. It will also allow Meet App to focus on providing optimal user experience without having to allocate resources managing server infrastructure. 
