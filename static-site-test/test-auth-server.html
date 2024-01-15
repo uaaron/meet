@@ -111,9 +111,11 @@
 
       fetch(eventRequest)
         .then(function (response) {
+          console.log("Received response: ", response)
           return response.json();
         })
         .then(function (json) {
+          console.log("Received JSON: ", json);
           events.innerText = JSON.stringify(json, null, 2);
         });
     };
