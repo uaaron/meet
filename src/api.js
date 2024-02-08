@@ -21,4 +21,3 @@ export const extractLocations = (events) => {
 export const getEvents = async () => {
   return mockData;
 };
-
