@@ -33,7 +33,7 @@ As a user, I should be able to filter events by city so that I can see a list of
 FEATURE: Toggle Event Details
 
 As a user I should be able to select the 'see more details' button so that I can obtain more information for the event that I am viewing. 
-  - Scenario 1: User has an event selected but the more details section is collapsed.
+  - Scenario 1: User has an event selected but the details section is collapsed.
     - Given user has a specific event selected, when they click the 'show more details' button then they will be able to read more about that specific event.
   - Scenario 2: User has expanded the more details section for the event.
     - Given user has the details section expanded on a selected event, when the user clicks on the 'hide details button' then the more details section will collapse. 
