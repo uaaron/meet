@@ -7,7 +7,7 @@ import NumberOfEvents from '../components/NumberOfEvents';
 describe('<NumberOfEvents /> component', () => {
   let NumberOfEventsComponent
   beforeEach(() => {
-    NumberOfEventsComponent = render(<NumberOfEvents />);
+    NumberOfEventsComponent = render(<NumberOfEvents setErrorAlert={() => { }} />);
   });
 
   test('renders NumberOfEvents input', () => {
@@ -28,6 +28,7 @@ describe('<NumberOfEvents /> component', () => {
     const eventsNumberTextbox = NumberOfEventsComponent.queryByRole('textbox');
     NumberOfEventsComponent.rerender(<NumberOfEvents
       setCurrentNOE={() => { }}
+      setErrorAlert={() => { }}
     />);
     await user.type(eventsNumberTextbox, '{backspace}{backspace}10');
     expect(eventsNumberTextbox.value).toBe('10')
