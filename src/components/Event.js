@@ -10,7 +10,7 @@ const Event = ({ event }) => {
   return (
     <li className='event'>
       <h2>{event.summary}</h2>
-      <h3>{event.created}</h3>
+      <h3>{new Date(event.start.dateTime).toUTCString()}</h3>
       <h3>{event.location}</h3>
       <button id="show-details" onClick={toggleDetails}>
         {showDetails ? 'Hide Details' : 'Show Details'}

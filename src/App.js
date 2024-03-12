@@ -38,6 +38,9 @@ function App() {
 
   return (
     <div className="App">
+      <header>
+        <h1 className="header">Tech Events</h1>
+      </header>
       <div className="alerts-container">
         {infoAlert.length ? <InfoAlert text={infoAlert} />
           : null}
