@@ -90,9 +90,11 @@ input[type='number'] {
   right: 5px;
   bottom: 5px;
   padding: 5px 8px;
+  border: 2px solid #4F6D7A;
   border-radius: 4px;
   outline: none;
   cursor: pointer;
+  background-color: #EAEAEA;
 }
 
 .alerts-container {
