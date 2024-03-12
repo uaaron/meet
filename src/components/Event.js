@@ -17,7 +17,7 @@ const Event = ({ event }) => {
       </button>
       {showDetails && (
         <div id="details">
-          Details
+          {event.description}
         </div>
       )}
     </li>
